@@ -6,9 +6,10 @@ padding: 0;
 
 body
 {
-font-size: 100%;
-background-color: rgb(233, 163, 0);
+font-size: 90%;
+background-color: rgb(0, 0, 0);
 max-width: 1024px;
+margin: 0 auto;
 h1 { font-size: 1.75em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.125em; }
@@ -36,9 +37,9 @@ margin-bottom: 10px;
 nav
 {
 background-color: aquamarine;
-width: 97.9%;
-padding: 14px;
-margin-bottom: 10px;
+width: 96.9%;
+padding: 13px;
+margin-bottom: 5px;
 }
 
 nav li
@@ -46,24 +47,22 @@ nav li
 display: inline;
 list-style-type: none;
 padding-right: 40px;
+padding-left: 40px;
 }
 
 aside
 {
-height: 400px;
-width: 20.8%;
+width: 21%;
 margin: 0% .9% .9% 0%; 
 padding: 14px 1.56%;
-background-color: rgb(130, 36, 126);
 float: left;
 }
 
 section
 {
-width: 74%;
-height: 400px;
+width: 70%;
 margin: 0% 0% .9% 0%;
-padding: 14px;
+padding: 14px 1.4%;
 background-color: rgb(128, 122, 114);
 float: right;
 }
@@ -71,7 +70,7 @@ float: right;
 footer
 {
 background-color: rgb(255, 251, 0);
-padding: 15px 1.56%;
+padding: 1rem;
 clear: both;
 width: 96.8%;
 }
@@ -79,8 +78,9 @@ width: 96.8%;
 section img 
 {
  width: 100%;
- max-width: 400px;
+ max-width: 41.6%;
  margin-bottom: .5em;
+ float: left;
 }
 
 p 
@@ -88,3 +88,14 @@ p
 color:aliceblue;
 }
 
+
+@media only screen and (max-width: 947px)
+{
+    nav li
+        {
+            display: inline;
+            list-style-type: none;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+}
